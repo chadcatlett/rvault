@@ -48,7 +48,7 @@ func NewClient() (*vapi.Client, error) {
 	if err != nil {
 		return nil, err
 	}
-	fmt.Printf("ADDRESS IS %s\n", c.Address())
+	//fmt.Printf("ADDRESS IS %s\n", c.Address())
 
 	c.SetToken(vaultToken)
 	return c, nil
